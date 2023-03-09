@@ -1,0 +1,14 @@
+{
+  "name": "@gymtek/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "react-redux": "^8.0.5"
+  }
+}
